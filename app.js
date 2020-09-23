@@ -15,11 +15,11 @@ app.engine('.hbs', hbs({
 app.set('view engine', '.hbs')
 
 app.use('/api', api)
-app.get('/login', (req, res) => {
-  res.render('login')
-})
-app.get('/', (req, res) => {
-  res.render('product')
-})
+// app.get('/login', (req, res) => {
+//   res.render('login')
+// })
+// app.get('/', (req, res) => {
+//   res.render('product')
+// })
 
 module.exports = app
